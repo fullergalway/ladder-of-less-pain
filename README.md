@@ -39,11 +39,12 @@ Ironically, that *is* progress.
 
 ## Presentation slide
 
-A 16:9 two-slide deck is included for talks:
+A 16:9 deck (and single-page PDF) for talks:
 
-- **`ladder-of-less-pain-slide.pptx`** — screenshot + live/repo links + “Made with Grok Build”
+- **`ladder-of-less-pain-slide.pdf`** — one-page handout / slide (screenshot, links, Made with Grok Build)
+- **`ladder-of-less-pain-slide.pptx`** — two-slide PowerPoint version
 - Screenshot source: `assets/ladder-of-less-pain.png`
-- Regenerate: `node scripts/make-slide.js` (requires `pptxgenjs`)
+- Print HTML: `assets/slide-print.html` · PPTX rebuild: `node scripts/make-slide.js`
 
 ## License
 

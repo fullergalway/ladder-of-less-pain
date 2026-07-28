@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ladder of Less Pain</title>
+  <style>
+    @page { size: 13.333in 7.5in; margin: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      width: 13.333in;
+      height: 7.5in;
+      overflow: hidden;
+      font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: #0b1020;
+      color: #f8fafc;
+    }
+    .slide {
+      width: 13.333in;
+      height: 7.5in;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      background: #0b1020;
+    }
+    .accent {
+      height: 0.1in;
+      background: linear-gradient(90deg, #a855f7, #22d3ee, #ec4899);
+      flex-shrink: 0;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 0.28in 0.45in 0.18in;
+      flex-shrink: 0;
+    }
+    h1 {
+      font-size: 28pt;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+    .sub {
+      margin-top: 0.08in;
+      font-size: 12pt;
+      color: #94a3b8;
+      font-weight: 500;
+    }
+    .badge {
+      background: #161f35;
+      border: 1px solid #475569;
+      border-radius: 10px;
+      padding: 0.12in 0.22in;
+      text-align: center;
+      min-width: 1.9in;
+    }
+    .badge .made {
+      font-size: 9pt;
+      color: #94a3b8;
+      display: block;
+    }
+    .badge .grok {
+      font-size: 14pt;
+      font-weight: 700;
+      color: #a5b4fc;
+      display: block;
+      margin-top: 2px;
+    }
+    .viz-wrap {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 0.4in;
+      min-height: 0;
+    }
+    .frame {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 0.06in;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .frame img {
+      display: block;
+      max-width: 12.3in;
+      max-height: 4.7in;
+      width: auto;
+      height: auto;
+      border-radius: 6px;
+    }
+    .footer {
+      flex-shrink: 0;
+      background: #121a2e;
+      padding: 0.18in 0.45in;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.4in;
+    }
+    .links { display: flex; flex-direction: column; gap: 0.08in; }
+    .row { font-size: 11pt; }
+    .label { font-weight: 700; margin-right: 0.12in; }
+    .label.live { color: #67e8f9; }
+    .label.repo { color: #c4b5fd; }
+    .url { color: #e2e8f0; text-decoration: none; }
+    .takeaway {
+      font-family: Georgia, "Times New Roman", serif;
+      font-style: italic;
+      font-size: 11pt;
+      color: #a78bfa;
+      text-align: right;
+      line-height: 1.35;
+      max-width: 3.6in;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide">
+    <div class="accent"></div>
+    <header class="header">
+      <div>
+        <h1>Ladder of Less Pain</h1>
+        <p class="sub">The Abstraction Ladder · 70 Years of Developer Tooling (1956–2026)</p>
+      </div>
+      <div class="badge">
+        <span class="made">Made with</span>
+        <span class="grok">Grok Build</span>
+      </div>
+    </header>
+    <div class="viz-wrap">
+      <div class="frame">
+        <img src="ladder-of-less-pain.png" alt="Ladder of Less Pain visualization" />
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="links">
+        <div class="row">
+          <span class="label live">Live</span>
+          <a class="url" href="https://fullergalway.github.io/ladder-of-less-pain/">fullergalway.github.io/ladder-of-less-pain</a>
+        </div>
+        <div class="row">
+          <span class="label repo">Repo</span>
+          <a class="url" href="https://github.com/fullergalway/ladder-of-less-pain">github.com/fullergalway/ladder-of-less-pain</a>
+        </div>
+      </div>
+      <p class="takeaway">Yesterday’s expert tool is today’s baseline.<br />The craft remains.</p>
+    </footer>
+  </div>
+</body>
+</html>
