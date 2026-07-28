@@ -1,6 +1,10 @@
 .DS_Store
 .playwright-mcp/
-*.png
+# local preview dumps (keep assets/ screenshots tracked)
+abstraction-ladder-*.png
+slides-preview/
+node_modules/
 .idea/
 .vscode/
-node_modules/
+package-lock.json
+

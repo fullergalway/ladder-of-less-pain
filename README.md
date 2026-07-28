@@ -37,6 +37,14 @@ Ironically, that *is* progress.
 
   **Yesterday’s expert tool is today’s baseline. The craft remains.**
 
+## Presentation slide
+
+A 16:9 two-slide deck is included for talks:
+
+- **`ladder-of-less-pain-slide.pptx`** — screenshot + live/repo links + “Made with Grok Build”
+- Screenshot source: `assets/ladder-of-less-pain.png`
+- Regenerate: `node scripts/make-slide.js` (requires `pptxgenjs`)
+
 ## License
 
 Do whatever you want with it. Cite it if you teach with it.  
